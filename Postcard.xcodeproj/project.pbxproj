@@ -13,6 +13,7 @@
 		E532ADD11A09D991004AEF11 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E532ADD01A09D991004AEF11 /* Images.xcassets */; };
 		E532ADD41A09D991004AEF11 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E532ADD21A09D991004AEF11 /* LaunchScreen.xib */; };
 		E532ADE01A09D991004AEF11 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E532ADDF1A09D991004AEF11 /* PostcardTests.swift */; };
+		E58AD3AB1A0B4D2B000B717F /* AlbertEinsteinStamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E58AD3AA1A0B4D2B000B717F /* AlbertEinsteinStamp.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		E532ADD91A09D991004AEF11 /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E532ADDE1A09D991004AEF11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E532ADDF1A09D991004AEF11 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		E58AD3AA1A0B4D2B000B717F /* AlbertEinsteinStamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AlbertEinsteinStamp.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		E532ADC71A09D991004AEF11 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E58AD3AA1A0B4D2B000B717F /* AlbertEinsteinStamp.jpg */,
 				E532ADC81A09D991004AEF11 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E58AD3AB1A0B4D2B000B717F /* AlbertEinsteinStamp.jpg in Resources */,
 				E532ADCF1A09D991004AEF11 /* Main.storyboard in Resources */,
 				E532ADD41A09D991004AEF11 /* LaunchScreen.xib in Resources */,
 				E532ADD11A09D991004AEF11 /* Images.xcassets in Resources */,
@@ -407,6 +411,7 @@
 				E532ADE51A09D991004AEF11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E532ADE61A09D991004AEF11 /* Build configuration list for PBXNativeTarget "PostcardTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				E532ADE81A09D991004AEF11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
